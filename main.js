@@ -44,6 +44,14 @@ function compute() {
     document.getElementById('modMessage').disabled = false;
     document.getElementById('modMessage').innerText = modMessage + ' ' + credits;    
     document.getElementById("modMessageButton").disabled = false;
+	
+	
+function ClearTime() {
+    document.getElementById("startobj").value = "";
+    document.getElementById("endobj").value = "";
+
+}
+	
 }
 
 function copyModMessage() {
